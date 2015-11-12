@@ -10,8 +10,8 @@ scalacOptions ++= Seq(
 fullResolvers ~= {_.filterNot(_.name == "jcenter")}
 
 scalapropsSettings
-scalapropsVersion := "0.1.15"
+scalapropsVersion := "0.1.16"
 
 libraryDependencies ++= Seq(
-  "org.scalaz" %% "scalaz-core" % "7.1.4"
+  "org.scalaz" %% "scalaz-core" % "7.1.5"
 )
